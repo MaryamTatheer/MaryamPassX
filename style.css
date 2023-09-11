@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,700;1,300&family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    background-color:rgb(38, 29, 94);
+    color: white;
+    padding: 12px 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin: 0 23px;
+    font-weight: 800;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    margin: 0 23px;
+    align-items: center;
+}
+
+ul > li {
+    list-style: none;
+    margin: 0 13px;
+    cursor: pointer;
+}
+
+ul > li:hover{
+    color: white;
+
+}
+
+table, td, tr{
+    border: 2px solid rgb(38, 29, 94);
+    border-collapse: collapse;
+    padding: 5px 13px;
+}
+
+.container {
+    max-width: 80vw;
+    margin: 23px auto;
+}
+
+h1, h2, h3 {
+    margin: 23px 0;
+    color:rgb(38, 29, 94) ;
+}
+
+.btn{
+    padding: 8px 17px;
+    background: rgb(38, 29, 94);
+    color: white;
+    font-weight: 900;
+    border: 2px solid rgb(23, 16, 70);
+    border-radius: 8px;
+    margin: 25px 0;
+    cursor: pointer;
+}
+input {
+    border-color:rgb(23, 16, 70) ;
+    border-radius: 5px;
+}
+.btnsm{ 
+    padding: 8px 17px;
+    background: rgb(38, 29, 94);
+    color: white;
+    font-weight: 900;
+    border: 2px solid rgb(23, 16, 70);
+    border-radius: 8px; 
+    cursor: pointer;
+}
+
+img{
+    cursor: pointer;
+    position: relative;
+    bottom: 7px;
+    width: 15px;
+    height: 13px;
+}
+
+#alert{
+    display: none;
+}
+
+
+body{
+    background-color: rgb(79, 73, 119);
+}
+#tb{
+    padding:2px;
+}
+.nav{
+    margin:0;
+}
+footer{
+    
+    background-color:rgb(38, 29, 94);
+    color: white;
+    padding: 12px 3px;
+    display: flex;
+    flex-direction:colom;
+    justify-content: space-between;
+}
